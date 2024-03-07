@@ -1,0 +1,17 @@
+# name='Tonny Papi'
+# location=''Nairobi'
+# age=34
+
+Class Mydetails:
+   def__init__(self,name,location ,age)
+      self.name=name
+      self.location=location
+      self.age=age
+   def dispay_info(self):
+      print('Mydetails')
+      print('name:'self.name)
+      print('location:'self.location)
+      print('age:'self.age)
+
+repo = Mydetails(name='Tonny Papi', location='Nairobi', age=34)
+repo.display_info()
